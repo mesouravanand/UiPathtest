@@ -1,4 +1,4 @@
-﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Main" mva:VisualBasic.Settings="{x:Null}"
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Main_1"
  xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
  xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
@@ -57,12 +57,10 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" Text="[&quot;Hello World!&quot;]" TopMost="True" sap2010:WorkflowViewState.IdRef="MessageBox_1" />
-    <sap2010:WorkflowViewState.IdRef>Sequence_1</sap2010:WorkflowViewState.IdRef>
-    <sads:DebugSymbol.Symbol>dy1DOlxnaXRfcmVwb1xKZW5raW5zVGVzdFxKZW5raW5zVGVzdFxNYWluLnhhbWwDPANADgIBAT0FPcgBAgECPWs9hwECAQM=</sads:DebugSymbol.Symbol>
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Hello World! sadfas&quot;]" TopMost="True" />
+    <sads:DebugSymbol.Symbol>dyxDOlxnaXRfcmVwb1xVaVBhdGh0ZXN0XEplbmtpbnNUZXN0XE1haW4ueGFtbAM8Az8OAgEBPQU9zwECAQI9mgE9vQECAQM=</sads:DebugSymbol.Symbol>
   </Sequence>
-  <sap2010:WorkflowViewState.IdRef>Main_1</sap2010:WorkflowViewState.IdRef>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
       <sap2010:ViewStateData Id="MessageBox_1" sap:VirtualizedContainerService.HintSize="314,58.6666666666667" />
@@ -73,7 +71,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,262.666666666667" />
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,302.666666666667" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
