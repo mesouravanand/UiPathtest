@@ -600,10 +600,11 @@
       ]
     },
     "Humanizer.Core/2.4.2": {
-      "sha512": "bdHOGpZNL92TebkGuaBe/RpxUrDeRDZQLRdFPEbM+miGV1V3ITmw6iZtGYzp44DUd60Fmw5mgHG2HaFSC4hQdQ==",
+      "sha512": "1ZKy7LHVYuhmM398hpvyWCcc2Fcx+hqiGYASELDthjWhVrsA6IabYnHRfkQFF6nGG6x4fA1D0StDX/U2Pj+FdQ==",
       "type": "package",
       "path": "humanizer.core/2.4.2",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "humanizer.core.2.4.2.nupkg.sha512",
         "humanizer.core.nuspec",
@@ -685,11 +686,11 @@
       ]
     },
     "NPOI/2.4.1": {
-      "sha512": "k6KgsGWQpODQcIo7SwTw4j0be6qILTQlk7xKMEPQjp1Bz3+YaUZSvQ/ePG5vcLKnzGDgGGN1TccvYccmrZU53g==",
+      "sha512": "85790/CY9z4DCU1KLpcdLSqaqaqmQOenTqXJfcsYK8LIKNAAoTgjT5LYLbORgdwAd63sbaJiCfB1SIn/dAXrJw==",
       "type": "package",
       "path": "npoi/2.4.1",
       "files": [
-        ".signature.p7s",
+        ".nupkg.metadata",
         "LICENSE",
         "Read Me.txt",
         "lib/NPOI.xml",
@@ -718,11 +719,11 @@
       ]
     },
     "SharpZipLib/1.0.0": {
-      "sha512": "38egGevtPMQn/6olZZUteKUC7+BD47LdCGKo9Vyj17+HWDwiqPXsyJu55q9WSybhwVKwt0q2FLhiuJjZfQpsHw==",
+      "sha512": "YuYztmY3jEb21F6e5LIPHJjApdtzdCPQ284UzsCKNfkgW71bukFHJES6RbKi+wm053XzFg0LX5/2vj/9gl8F/g==",
       "type": "package",
       "path": "sharpziplib/1.0.0",
       "files": [
-        ".signature.p7s",
+        ".nupkg.metadata",
         "lib/net45/ICSharpCode.SharpZipLib.dll",
         "lib/net45/ICSharpCode.SharpZipLib.xml",
         "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
@@ -986,9 +987,9 @@
     "restore": {
       "projectUniqueName": "JenkinsTest",
       "projectName": "JenkinsTest",
-      "projectPath": "C:\\git_repo\\UiPathtest\\JenkinsTest\\.local",
+      "projectPath": "C:\\Users\\sourav.anand\\Documents\\UiPath\\UiPathtest\\JenkinsTest\\.local",
       "packagesPath": "C:\\Users\\sourav.anand\\.nuget\\packages\\",
-      "outputPath": "C:\\git_repo\\UiPathtest\\JenkinsTest\\.local"
+      "outputPath": "C:\\Users\\sourav.anand\\Documents\\UiPath\\UiPathtest\\JenkinsTest\\.local"
     },
     "frameworks": {
       "net461": {
